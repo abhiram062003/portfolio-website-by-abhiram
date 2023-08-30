@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(19, 19, 105);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+
+    color: rgb(115, 115, 233);
+    font-size: 1.1rem;
+}
+
+.left {
+    font-size: 1.4rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 135px 0;
+}
+
+.firstsection>div {
+    width: 40%;
+}
+
+.leftsection {
+    font-size: 2.3rem;
+}
+
+.leftsection .buttons{
+    padding: 50px 0px;
+}
+    
+
+.leftsection .btn{
+   padding: 12px;
+   background: #1e2167;
+   color: #fff;
+   border: 2px solid white;
+   border-radius: 6px;
+   font-size: 20px;
+   cursor: pointer;
+
+
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 5px;
+}
+
+.purple {
+    color: rgb(153, 77, 224);
+}
+
+#element {
+    color: rgb(115, 115, 233);
+}
+
+
+main hr {
+    border: 0;
+    background-color: rgb(202, 161, 240);
+    height: 1px;
+    margin: 70px 80px;
+}
+
+.text-grey {
+    color: rgb(164, 92, 168);
+    font-size: 2.5rem;
+
+}
+
+.text-voilet {
+    color: violet;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.secondsection>div {
+    width: 45%;
+}
+
+.secondleftsection  img{
+    width: 100%;
+    
+}
+
+h1 {
+    font-style: normal;
+    font-size: 3rem;
+    margin: 40px;
+    padding-bottom: 30px;
+}
+
+div img {
+    margin: 10px;
+}
+
+.thirdsection {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+
+.main_container {
+    width: 100%;
+    font-size: 0.5rem;
+}
+.container {
+    width: 100%;
+    background-color: rgb(92, 92, 124);
+   
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-sizing: 0.5px;
+   border-radius: 50px;
+}
+
+.skillset {
+        text-align: right;
+        color: #fff;
+       
+    
+}
+
+
+.html {
+    width: 80%;
+    background-color: red;
+}
+
+.css {
+    width: 80%;
+    background-color: rgb(128, 23, 197);
+}
+
+.Javascript {
+    width: 75%;
+    background-color: rgb(194, 26, 138);
+}
+
+.JAVA {
+    width: 70%;
+    background-color: rgb(13, 112, 9);
+}
+
+.mysql {
+    width: 60%;
+    background-color: yellow;
+}
+
+.Php {
+    width: 50%;
+    background-color: rgb(48, 56, 10);
+}
+
+
+h5 {
+    margin: 5px 100px;
+    font-size: 22px;
+    color: coral;
+}
+ 
+
+.text-contact{
+    text-align: center;
+    color: violet;
+    margin: 150px 0px;
+   
+}
+form{
+    
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    margin: 0px 30%;
+    font-size: 1.5rem;
+    border: 2px solid rgb(209, 13, 13);
+    color: chocolate;
+    
+}
+.input{
+    font-size: 1.3rem;
+
+}
+.button{
+    border: 10px;
+    background: crimson;
+    border-radius: 2px;
+    font-size: 1rem; 
+}
+
+
+ .fifthsection img{
+height: 50px;
+margin: 0px 40%;
+display: flex;
+
+
+ }
+ footer{
+    text-align: center;
+ }
+ .footerlink{
+    display: flex;
+    align-items: center;
+    
+ }
+ .footerlink img{
+    height: 30px;
+    border: 1px solid black;
+    color: rgb(0, 0, 33);
+    
+ } 
